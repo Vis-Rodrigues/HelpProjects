@@ -8,8 +8,7 @@ import javax.swing.JOptionPane;
 public class Teste {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		
+
 		String nomeDiretorio;
 		
 		nomeDiretorio = JOptionPane.showInputDialog("Por favor, insira o diretório das classes");
@@ -25,7 +24,5 @@ public class Teste {
 			e.printStackTrace();
 		}
 	}
-	
-	
 
 }

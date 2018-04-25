@@ -20,7 +20,6 @@ public class Teste {
 			List<Path> lstArquivoComFiltro = dirUtils.filtrarArquivoJava(dirUtils.getFilesJava());
 			File arquivo = leitor.escreverArquivo(leitor.capturarPacoteClasse(lstArquivoComFiltro));
 			dirUtils.abrirDiretorio(arquivo);
-			
 		} catch (IOException e) {
 			leitor.escreverArquivo("ERRO: " + e.getMessage() + "\n");
 			e.printStackTrace();
